@@ -287,9 +287,10 @@ well as advanced analysis through semantic reasoning.</p>
 
 <!-- Classes -->
 
+<div class="specterm" id="term_CoreIdea" />
 ---
 #### Class: im:CoreIdea 
-<div class="specterm" id="term_CoreIdea">
+
 
 <table>
 <tr><th>sub-class-of:</th><td> <a href="#term_Resource">rdf:Resource</a></td></tr>
@@ -309,6 +310,7 @@ Through the sub-classing attributes such <code><a href="#term_hasCreator">im:has
 </p>
 
 
+<div class="specterm" id="term_IdeaRealization" />
 ---
 #### Class: im:IdeaRealization
 
@@ -325,6 +327,7 @@ This class is used to link an <code><a href="#term_CoreIdea">
 im:CoreIdea</a></code> to a realization of that idea.</p>
 
 
+<div class="specterm" id="term_Origin" />
 ---
 #### Class: im:Origin
 <table>
@@ -335,6 +338,7 @@ im:CoreIdea</a></code> to a realization of that idea.</p>
 The application that the <code><a href="#term_Resource">rdf:Resource</a></code> originates from.</p>
 
 
+<div class="specterm" id="term_Resource" />
 ---
 #### Class: rdf:Resource
 <table>
@@ -349,6 +353,7 @@ Known sub-classes within the context of the Idea Ontology are <code><a href="#te
 </p>
 
 
+<div class="specterm" id="term_Status" />
 ---
 #### Class: im:Status
 <table>
@@ -365,6 +370,7 @@ Examples are <em>new</em>, <em>open</em>, <em>evaluated</em>, <em>implemented</e
 
 <!-- Data properties -->
 
+<div class="specterm" id="term_abstract"/>
 ---
 #### Data Property: im:abstract
 
@@ -381,6 +387,7 @@ A medium length abstract describing an <code><a href="#term_CoreIdea">im:CoreIde
 
 
 
+<div class="specterm" id="term_date"/>
 ---
 #### Data Property: dc:date
 
@@ -397,6 +404,7 @@ Time this version of an <code><a href="#term_CoreIdea">im:CoreIdea</a></code> ha
 See: <a href="http://purl.org/dc/elements/1.1/date" target="dc">dc:date</a>.</p>
 
 
+<div class="specterm" id="term_description"/>
 ---
 #### Data Property: dc:description
 
@@ -414,6 +422,7 @@ See: <a href="http://purl.org/dc/elements/1.1/description" target="dc">dc:descri
 
 
 
+<div class="specterm" id="term_title"/>
 ---
 #### Data Property: dc:title
 
@@ -430,6 +439,7 @@ See: <a href="http://purl.org/dc/elements/1.1/title" target="dc">dc:title</a>.</
 
 
 
+<div class="specterm" id="term_version"/>
 ---
 #### Data Property: im:version
 
@@ -448,6 +458,7 @@ number to allow keeping track of different instances of the same idea by means o
 
 <!-- Object properties -->
 
+<div class="specterm" id="term_hasAttachment"/>
 ---
 #### Object Property: im:hasAttachment
 
@@ -464,6 +475,7 @@ may have documents attached to it (e.g., a screenshot, a process model, technica
 
 
 
+<div class="specterm" id="term_hasCreator"/>
 ---
 #### Object Property: im:hasCreator
 
@@ -480,6 +492,7 @@ may have documents attached to it (e.g., a screenshot, a process model, technica
 
 
 
+<div class="specterm" id="term_hasForum"/>
 ---
 #### Object Property: im:hasForum
 
@@ -496,6 +509,7 @@ sioc:forums</a></code> associated with it where users are discussing the idea. A
 </p>
 
 
+<div class="specterm" id="term_hasRating"/>
 ---
 #### Object Property: im:hasRating
 
@@ -514,6 +528,7 @@ See: <a href="http://www.tvblob.com/ratings/" target="tvblob">tvblob rating</a>.
 </p>
 
 
+<div class="specterm" id="term_hasRealization"/>
 ---
 #### Object Property: im:hasRealization
 
@@ -530,6 +545,7 @@ in a concrete product or service. This is indicated through a <code><a href="#te
 </p>
 
 
+<div class="specterm" id="term_hasStatus"/>
 ---
 #### Object Property: im:hasStatus
 
@@ -545,7 +561,7 @@ denots the state of this idea. This could mean that an idea is <em>open, evaluat
 </p>
 
 
-
+<div class="specterm" id="term_hasTagging"/>
 ---
 #### Object Property: im:hasTagging
 
@@ -560,7 +576,7 @@ denots the state of this idea. This could mean that an idea is <em>open, evaluat
 </p>
 
 
-
+<div class="specterm" id="term_hasTopic"/>
 ---
 #### Object Property: im:hasTopic
 
@@ -576,7 +592,7 @@ denots the state of this idea. This could mean that an idea is <em>open, evaluat
 </p>
 
 
-
+<div class="specterm" id="term_isNewVersionOf"/>
 ---
 #### Object Property: im:isNewVersionOf
 
@@ -592,7 +608,7 @@ linked to each other indicating that they are "the same" but in different versio
 </p>
 
 
-
+<div class="specterm" id="term_isSubjectOf"/>
 ---
 #### Object Property: im:isSubjectOf
 
@@ -610,6 +626,7 @@ is discussed in the related <code><a href="#term_Resource">rdf:Resource</a></cod
 </p>
 
 
+<div class="specterm" id="term_realizes"/>
 ---
 #### Object Property: im:realizes
 
