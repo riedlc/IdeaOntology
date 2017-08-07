@@ -287,8 +287,9 @@ well as advanced analysis through semantic reasoning.</p>
 
 <!-- Classes -->
 
-#### Class: im:CoreIdea
 ---
+#### Class: im:CoreIdea
+
 
 <table>
 <tr><th>sub-class-of:</th><td> <a href="#term_Resource">rdf:Resource</a></td></tr>
@@ -308,9 +309,8 @@ Through the sub-classing attributes such <code><a href="#term_hasCreator">im:has
 </p>
 
 
-
+---
 #### Class: im:IdeaRealization
-======
 
 <table>
 <tr><th>in-range-of: </th><td> <a href="#term_hasRealization">im:hasRealization</a></td></tr>
@@ -325,7 +325,7 @@ This class is used to link an <code><a href="#term_CoreIdea">
 im:CoreIdea</a></code> to a realization of that idea.</p>
 
 
-
+---
 #### Class: im:Origin
 <table>
 <tr><th>in-range-of:</th><td> <a href="#term_hasOrigin">im:hasOrigin</a></td></tr>
@@ -335,7 +335,7 @@ im:CoreIdea</a></code> to a realization of that idea.</p>
 The application that the <code><a href="#term_Resource">rdf:Resource</a></code> originates from.</p>
 
 
- 
+---
 #### Class: rdf:Resource
 <table>
 <tr><th>in-range-of:</th><td> <a href="#term_hasCreator">im:hasCreator</a> <a href="#term_hasTagging">im:hasTagging</a>
@@ -349,6 +349,7 @@ Known sub-classes within the context of the Idea Ontology are <code><a href="#te
 </p>
 
 
+---
 #### Class: im:Status
 <table>
 <tr><th>in-range-of:</th><td><a href="#term_hasStatus">im:hasStatus</a></td></tr>
@@ -364,6 +365,7 @@ Examples are <em>new</em>, <em>open</em>, <em>evaluated</em>, <em>implemented</e
 
 <!-- Data properties -->
 
+---
 #### Data Property: im:abstract
 
 <table>
@@ -379,6 +381,7 @@ A medium length abstract describing an <code><a href="#term_CoreIdea">im:CoreIde
 
 
 
+---
 #### Data Property: dc:date
 
 <table>
@@ -394,6 +397,7 @@ Time this version of an <code><a href="#term_CoreIdea">im:CoreIdea</a></code> ha
 See: <a href="http://purl.org/dc/elements/1.1/date" target="dc">dc:date</a>.</p>
 
 
+---
 #### Data Property: dc:description
 
 <table>
@@ -410,6 +414,7 @@ See: <a href="http://purl.org/dc/elements/1.1/description" target="dc">dc:descri
 
 
 
+---
 #### Data Property: dc:title
 
 <table>
@@ -424,6 +429,8 @@ See: <a href="http://purl.org/dc/elements/1.1/description" target="dc">dc:descri
 See: <a href="http://purl.org/dc/elements/1.1/title" target="dc">dc:title</a>.</p>
 
 
+
+---
 #### Data Property: im:version
 
 <table>
@@ -441,6 +448,7 @@ number to allow keeping track of different instances of the same idea by means o
 
 <!-- Object properties -->
 
+---
 #### Object Property: im:hasAttachment
 
 <table>
@@ -456,6 +464,7 @@ may have documents attached to it (e.g., a screenshot, a process model, technica
 
 
 
+---
 #### Object Property: im:hasCreator
 
 <table>
@@ -471,6 +480,7 @@ may have documents attached to it (e.g., a screenshot, a process model, technica
 
 
 
+---
 #### Object Property: im:hasForum
 
 <table>
@@ -486,6 +496,7 @@ sioc:forums</a></code> associated with it where users are discussing the idea. A
 </p>
 
 
+---
 #### Object Property: im:hasRating
 
 <table>
@@ -503,6 +514,7 @@ See: <a href="http://www.tvblob.com/ratings/" target="tvblob">tvblob rating</a>.
 </p>
 
 
+---
 #### Object Property: im:hasRealization
 
 <table>
@@ -517,6 +529,8 @@ in a concrete product or service. This is indicated through a <code><a href="#te
 </a></code> link to an <code><a href="#term_IdeaRealization">im:IdeaRealization</a></code>.<p>
 </p>
 
+
+---
 #### Object Property: im:hasStatus
 
 <table>
@@ -532,6 +546,7 @@ denots the state of this idea. This could mean that an idea is <em>open, evaluat
 
 
 
+---
 #### Object Property: im:hasTagging
 
 <table>
@@ -546,6 +561,7 @@ denots the state of this idea. This could mean that an idea is <em>open, evaluat
 
 
 
+---
 #### Object Property: im:hasTopic
 
 <table>
@@ -561,6 +577,7 @@ denots the state of this idea. This could mean that an idea is <em>open, evaluat
 
 
 
+---
 #### Object Property: im:isNewVersionOf
 
 <table>
@@ -576,6 +593,7 @@ linked to each other indicating that they are "the same" but in different versio
 
 
 
+---
 #### Object Property: im:isSubjectOf
 
 <table>
@@ -592,6 +610,7 @@ is discussed in the related <code><a href="#term_Resource">rdf:Resource</a></cod
 </p>
 
 
+---
 #### Object Property: im:realizes
 
 <table>
@@ -610,7 +629,7 @@ I.e. the product or service realized here, originates/is based on an <code><a hr
 
 <!-- end of termlist -->
 
-### Acknowledgments
+## Acknowledgments
 
   <p>This research was funded by the German Federal Ministry of Economics and Technology under the 
   promotional reference 01MQ07012, 01MQ07017, 01MQ07019,  and 01MQ07024 and the German Federal Ministry of Education and Research under grant 
@@ -618,7 +637,7 @@ I.e. the product or service realized here, originates/is based on an <code><a hr
 
 We want to acknowledge in particular the help of Daniel Oberle and Tom Kiemes from the TEXO Project.
 	
-### Copyright Disclaimer
+## Copyright Disclaimer
   
   <p>The information in this document is proprietary to the following THESEUS consortium members funded 
   by means of the German Federal Ministry of Economy and Technology : SAP AG, FZI, Fraunhofer Gesellschaft 
