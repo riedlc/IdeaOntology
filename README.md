@@ -288,6 +288,7 @@ well as advanced analysis through semantic reasoning.</p>
 <!-- Classes -->
 
 <div class="specterm" id="term_CoreIdea" />
+
 ---
 #### Class: im:CoreIdea 
 
