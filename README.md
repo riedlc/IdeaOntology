@@ -2,31 +2,26 @@
 
 ## Namespace Document 1 November 2009 - Initial Version
 
-  <dl>
+<dl>
+<dt>This version:</dt>
 
-    <dt>This version:</dt>
+<dd><a href="https://github.com/riedlc/IdeaOntology">https://github.com/riedlc/IdeaOntology</a> (<a href="https://github.com/riedlc/IdeaOntology/blob/master/20091101.rdf">rdf</a>)</dd>
 
-    <dd><a href=
-    "https://github.com/riedlc/IdeaOntology">https://github.com/riedlc/IdeaOntology</a> (<a href="https://github.com/riedlc/IdeaOntology/blob/master/20091101.rdf">rdf</a>)</dd>
+<dt>Latest version:</dt>
+<dd><a href="https://github.com/riedlc/IdeaOntology">https://github.com/riedlc/IdeaOntology</a> (<a href="https://github.com/riedlc/IdeaOntology/blob/master/20091101.rdf">rdf</a>)</dd>
 
-    <dt>Latest version:</dt>
-    <dd><a href="https://github.com/riedlc/IdeaOntology">https://github.com/riedlc/IdeaOntology</a> (<a href="https://github.com/riedlc/IdeaOntology/blob/master/20091101.rdf">rdf</a>)</dd>
+<dt>Authors:</dt>
+<dd><a href="mailto:riedlc[at.]in.tum.de">Christoph Riedl</a>,
+<a>Norman May</a>,
+<a>Jan Finzen</a>,
+<a>Stephan Stathel</a>,
+<a>Helmut Krcmar</a></dd>
 
-    <dt>Authors:</dt>
-    <dd><a href="mailto:riedlc[at.]in.tum.de">Christoph Riedl</a>,
-    <a>Norman May</a>,
-		<a>Jan Finzen</a>,
-		<a>Stephan Stathel</a>,
-		<a>Helmut Krcmar</a></dd>
+<dt>Contributors:</dt>
+<dd>Members of TEXO and related projects. See <a href="#sec-ack">acknowledgements</a>.</dd>
+</dl>
 
-    <dt>Contributors:</dt>
-
-    <dd>Members of TEXO and related projects. See <a href=
-    "#sec-ack">acknowledgements</a>.</dd>
-
-  </dl>
-
-  <p class="copyright">Copyright &copy; 2009-2010 Christoph Riedl, Norman May, Jan Finzen, Stephan Stathel, Helmut Krcmar<br />
+<p>Copyright &copy; 2009-2010 Christoph Riedl, Norman May, Jan Finzen, Stephan Stathel, Helmut Krcmar<br />
   <br />
 
   <!-- Creative Commons License -->
@@ -60,17 +55,17 @@ As usual, see the <a href="#sec-changes">changes</a> section for details of the 
 
 ## Table of Contents
 
-  <ul>
-    <li><a href="#sec-glance">IM at a glance</a></li>
-    <li><a href="#sec-intro">Introduction</a></li>
-    <li><a href="#sec-sw">The Semantic Web</a></li>
-    <li><a href="#sec-imsw">IM and the Semantic Web</a></li>
-    <li><a href="#sec-basicidea">The Basic Idea</a></li>
-    <li><a href="#sec-crossref">IM cross-reference: Listing IM Classes and Properties</a></li>
-    <li><a href="#sec-ack">Acknowledgments</a></li>
-	<li><a href="#sec-disclaimer">Copyright Disclaimer</a></li>
-    <li><a href="#sec-changes">Recent Changes</a></li>
-  </ul>
+<ul>
+<li><a href="#sec-glance">IM at a glance</a></li>
+<li><a href="#sec-intro">Introduction</a></li>
+<li><a href="#sec-sw">The Semantic Web</a></li>
+<li><a href="#sec-imsw">IM and the Semantic Web</a></li>
+<li><a href="#sec-basicidea">The Basic Idea</a></li>
+<li><a href="#sec-crossref">IM cross-reference: Listing IM Classes and Properties</a></li>
+<li><a href="#sec-ack">Acknowledgments</a></li>
+<li><a href="#sec-disclaimer">Copyright Disclaimer</a></li>
+<li><a href="#sec-changes">Recent Changes</a></li>
+</ul>
 
 
 
@@ -98,22 +93,22 @@ As usual, see the <a href="#sec-changes">changes</a> section for details of the 
 
 ### Core Idea Basics
 
-      <ul>
-        <li><a href="#term_title">title</a></li>
-        <li><a href="#term_abstract">abstract</a></li>
-        <li><a href="#term_description">description</a></li>
-        <li><a href="#term_date">date</a></li>
-        <li><a href="#term_hasAttachment">hasAttachment</a></li>
-        <li><a href="#term_hasCreator">hasCreator</a></li>
-        <li><a href="#term_hasForum">hasForum</a></li>
-        <li><a href="#term_hasOrigin">hasOrigin</a></li>
-        <li><a href="#term_hasRating">hasRating</a></li>
-        <li><a href="#term_hasRealization">hasRealization</a></li>
-        <li><a href="#term_hasStatus">hasStatus</a></li>
-        <li><a href="#term_hasTagging">hasTagging</a></li>
-        <li><a href="#term_hasTopic">hasTopic</a></li>
-        <li><a href="#term_isNewVersionOf">isNewVersionOf</a>&nbsp;&nbsp;</li>
-      </ul>
+<ul>
+<li><a href="#term_title">title</a></li>
+<li><a href="#term_abstract">abstract</a></li>
+<li><a href="#term_description">description</a></li>
+<li><a href="#term_date">date</a></li>
+<li><a href="#term_hasAttachment">hasAttachment</a></li>
+<li><a href="#term_hasCreator">hasCreator</a></li>
+<li><a href="#term_hasForum">hasForum</a></li>
+<li><a href="#term_hasOrigin">hasOrigin</a></li>
+<li><a href="#term_hasRating">hasRating</a></li>
+<li><a href="#term_hasRealization">hasRealization</a></li>
+<li><a href="#term_hasStatus">hasStatus</a></li>
+<li><a href="#term_hasTagging">hasTagging</a></li>
+<li><a href="#term_hasTopic">hasTopic</a></li>
+<li><a href="#term_isNewVersionOf">isNewVersionOf</a>&nbsp;&nbsp;</li>
+</ul>
   
 ![Overview of Idea Ontology concepts](https://github.com/riedlc/IdeaOntology/blob/master/res/IdeaOntologyOverview.png "Overview of Idea Ontology concepts")
 
@@ -234,54 +229,53 @@ well as advanced analysis through semantic reasoning.</p>
   
   <p>The various namespaces used in the ontology are summarized in the following table.</p>
   
-  <table border="1" rules="all" cellpadding="5">
-		<tr>
-		<th>Ontology</th>
-		<th>Prefix</th>
-		<th>Short Description</th>
-		</tr>
-		<tr>
-		<td>Idea Ontology</td>
-		<td>im</td>
-		<td>The ontology for innovation management introduced here</td>
-		</tr>
-		<tr>
-		<td><a href="http://www.w3.org/RDF" target="rdf">RDF</a></td>
-		<td>rdf</td>
-		<td>Resource Description Framework</td>
-		</tr>
-		<tr>
-		<td><a href="http://dublincore.org/documents/dces/" target="dc">Dublin Core</a></td>
-		<td>dc</td>
-		<td>The Dublin Core for metadata about resources</td>
-		</tr>
-		<tr>
-		<td><a href="http://xmlns.com/foaf/spec/" target="foaf">FOAF</a></td>
-		<td>foaf</td>
-		<td>The Friend of a Friend ontology for describing agents and their relationships</td>
-		</tr>
-		<tr>
-		<td><a href="http://www.holygoat.co.uk/owl/redwood/0.1/tags" target="tagging">Tagging Ontolgy</a></td>
-		<td>tags</td>
-		<td>A simple tagging ontology</td>
-		</tr>
-		<tr>
-		<td><a href="http://rdfs.org/sioc/" target="sioc">SIOC</a></td>
-		<td>sioc</td>
-		<td>An ontology for (online) communities</td>
-		</tr>
-		<tr>
-		<td><a href="http://www.tvblob.com/ratings/" target="rating">Rating Ontology</a></td>
-		<td>r</td>
-		<td>A rating ontology</td>
-		</tr>
-		<tr>
-		<td><a href="http://www.w3.org/2008/05/skos" target="skos">SKOS</a></td>
-		<td>skos</td>
-		<td>An ontology for knowledge representation</td>
-		</tr>
-			
-	</table>
+<table border="1" rules="all" cellpadding="5">
+<tr>
+<th>Ontology</th>
+<th>Prefix</th>
+<th>Short Description</th>
+</tr>
+<tr>
+<td>Idea Ontology</td>
+<td>im</td>
+<td>The ontology for innovation management introduced here</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/RDF" target="rdf">RDF</a></td>
+<td>rdf</td>
+<td>Resource Description Framework</td>
+</tr>
+<tr>
+<td><a href="http://dublincore.org/documents/dces/" target="dc">Dublin Core</a></td>
+<td>dc</td>
+<td>The Dublin Core for metadata about resources</td>
+</tr>
+<tr>
+<td><a href="http://xmlns.com/foaf/spec/" target="foaf">FOAF</a></td>
+<td>foaf</td>
+<td>The Friend of a Friend ontology for describing agents and their relationships</td>
+</tr>
+<tr>
+<td><a href="http://www.holygoat.co.uk/owl/redwood/0.1/tags" target="tagging">Tagging Ontolgy</a></td>
+<td>tags</td>
+<td>A simple tagging ontology</td>
+</tr>
+<tr>
+<td><a href="http://rdfs.org/sioc/" target="sioc">SIOC</a></td>
+<td>sioc</td>
+<td>An ontology for (online) communities</td>
+</tr>
+<tr>
+<td><a href="http://www.tvblob.com/ratings/" target="rating">Rating Ontology</a></td>
+<td>r</td>
+<td>A rating ontology</td>
+</tr>
+<tr>
+<td><a href="http://www.w3.org/2008/05/skos" target="skos">SKOS</a></td>
+<td>skos</td>
+<td>An ontology for knowledge representation</td>
+</tr>
+</table>
 
 ## IM cross-reference: Listing IM Classes and Properties
 
@@ -294,6 +288,7 @@ well as advanced analysis through semantic reasoning.</p>
 <!-- Classes -->
 
 #### Class: im:CoreIdea
+======
 
 <table>
 <tr><th>sub-class-of:</th><td> <a href="#term_Resource">rdf:Resource</a></td></tr>
@@ -315,6 +310,8 @@ Through the sub-classing attributes such <code><a href="#term_hasCreator">im:has
 
 
 #### Class: im:IdeaRealization
+======
+
 <table>
 <tr><th>in-range-of: </th><td> <a href="#term_hasRealization">im:hasRealization</a></td></tr>
 <tr><th>in-domain-of: </th><td><em>unspecified (see description below)</em></td></tr></table>
@@ -619,7 +616,7 @@ I.e. the product or service realized here, originates/is based on an <code><a hr
   promotional reference 01MQ07012, 01MQ07017, 01MQ07019,  and 01MQ07024 and the German Federal Ministry of Education and Research under grant 
   number 01IA08001A. The responsibility for this publication lies with the authors.</p>
 
-	<p>We want to acknowlede in particular the help of Daniel Oberle and Tom Kiemes from the TEXO Project.</p>
+We want to acknowledge in particular the help of Daniel Oberle and Tom Kiemes from the TEXO Project.
 	
 ### Copyright Disclaimer
   
@@ -635,9 +632,4 @@ I.e. the product or service realized here, originates/is based on an <code><a hr
 
 ## Recent Changes
 
-2009-11-09
-
-	<ul>
-	<li>Initial version
-	</ul>
-
+Initial version: 2009-11-09
