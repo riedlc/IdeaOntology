@@ -288,8 +288,8 @@ well as advanced analysis through semantic reasoning.</p>
 <!-- Classes -->
 
 ---
-#### Class: im:CoreIdea
-
+#### Class: im:CoreIdea 
+<div class="specterm" id="term_CoreIdea">
 
 <table>
 <tr><th>sub-class-of:</th><td> <a href="#term_Resource">rdf:Resource</a></td></tr>
