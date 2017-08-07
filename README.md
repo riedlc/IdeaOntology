@@ -1,86 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"   xlmns:im="http://www.ideaontology.org/1.0/"     xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/">
-<head>
-  <title>Idea Ontology Vocabulary Specification</title>
-  <link href="res/xmlns-style.css" rel="stylesheet" type="text/css" />
-  <link href="http://www.ideaontology.org/spec/index.rdf" rel="alternate" type="application/rdf+xml" />
-<style type="text/css">
-/*<![CDATA[*/
-
-body {
-
- margin-left: 4em;
- margin-right: 9em;
- text-align: justify;
-}
-
-.termdetails {
-}
-
-div.specterm {
-
-        border: 1px solid black;
-  	background: 	#F0F0F0  ;
-	  padding: 1em;
-}
-
-
-div.rdf-proplist {
-        background-color: #ddf;
-        border: 1px solid black;
-        float: left;
-/*        width: 26%; */
-        margin: 0.3em 1%; 
-}
-img { border: 0 } 
-
-.example {
-        border: 1px solid black;
-        background-color: #D9E3E9; 
-	padding: 5px;
-	width: 100%;
-}
-
- .editorial {
-        border: 2px solid green;
-        padding: 5px;
-}
-
-div.rdf-classlist {
-        background-color: #eef;
-        border: 1px solid black;
-        float: left;
-        margin: 0.3em 1%;
-        width: 26%;
-}
-
-div.rdf-proplist h3 {
-        background-color: #bbf;
-        font-size: 100%;
-        margin: 0;
-        padding: 5px;
-}
-
-div.rdf-classlist h3 {
-        background-color: #ccf;
-        font-size: 100%;
-        margin: 0;
-        padding: 5px;
-}
-
-specterm.h3 {
-/*      foreground-color: #000; */
-        background-color: #bbf;
-        font-size: 100%;
-        margin: 0;
-        padding: 3px;
-}
-
-
-/*]]>*/
-</style>
-# Idea Ontology Vocabulary Specification 1.0
+﻿# Idea Ontology Vocabulary Specification 1.0
 
 ## Namespace Document 1 November 2009 - Initial Version
 
@@ -119,31 +37,28 @@ specterm.h3 {
   <hr />
 
 
-<h2 id="sec-state">Abstract</h2>
-<p>
+## Abstract
+
 This specification describes the Idea Ontology (IM) using the OWL technology. While most people have an intuitive understanding of what the terms 
 <em>idea</em> and <em>innovation</em> mean, a precise and formal definition for the concept of an idea is hard to obtain. Nevertheless, 
 it becomes increasingly important to close this gap. Exchanging and analyzing ideas across different software tools and 
 repositories is needed to implement the concepts of open innovation and holistic innovation management. The Idea Ontology 
 provides a common language to foster interoperability between tools and to support the idea life cycle. 
-</p>
 
-  <div class="state">
-    <h2>Status of This Document</h2>
-    <p>The Idea Ontology has been evolving gradually since its creation in 2008. The current state can now be considered a stable core of classes and properties 
+
+## Status of This Document
+The Idea Ontology has been evolving gradually since its creation in 2008. The current state can now be considered a stable core of classes and properties 
 that will not see too much changes in the future. New terms may be added as new requirements emerge,  and consequently this specification 
-is an evolving work. The Idea Ontology RDF namespace, by contrast, is fixed and it's identifier is not expected to <a href="#sec-changes">change</a>. </p>
+is an evolving work. The Idea Ontology RDF namespace, by contrast, is fixed and it's identifier is not expected to <a href="#sec-changes">change</a>.
 
-<p>
-    The Idea Ontology specification is produced as part of the <a href="http://theseus-programm.de/en-us/theseus-application-scenarios/texo/">TEXO project</a>, 
-		making a contribution towards the creation of a new Internet-based knowledge infrastructure that will allow faster and more effective processing and use of online knowledge in future.</p>
+The Idea Ontology specification is produced as part of the <a href="http://theseus-programm.de/en-us/theseus-application-scenarios/texo/">TEXO project</a>, making a contribution towards the creation of a new Internet-based knowledge infrastructure that will allow faster and more effective processing and use of online knowledge in future.
 
-    <p>The authors welcome comments on this document, preferably via email to the authors.</p>
+The authors welcome comments on this document, preferably via email to the authors.
 
-<p>As usual, see the <a href="#sec-changes">changes</a> section for details of the changes in this version of the specification.</p>
+As usual, see the <a href="#sec-changes">changes</a> section for details of the changes in this version of the specification.
 
 
-  <h2 id="sec-toc">Table of Contents</h2>
+## Table of Contents
 
   <ul>
     <li><a href="#sec-glance">IM at a glance</a></li>
@@ -159,13 +74,11 @@ is an evolving work. The Idea Ontology RDF namespace, by contrast, is fixed and 
 
 
 
-  <h2 id="glance">IM at a glance</h2>
+## IM at a glance
  
  <p>An a-z index of IM terms, by class (categories or types) and
   by property.</p>
 
-
-<div style="padding: 5px; border: solid; background-color: #ddd;">
 <p>Classes: <a href="#term_CoreIdea">CoreIdea</a> |  <a href="#term_IdeaRealization">IdeaRealization</a> |  <a href="#term_Origin">Origin</a> |   <a href="#term_Status">Status</a>
 
 </p>
@@ -180,57 +93,35 @@ is an evolving work. The Idea Ontology RDF namespace, by contrast, is fixed and 
 
 </p>
 
-</div>
 
 
 
-    <p>IM overview.</p>
-    <div class="rdf-proplist">
-      <h3>Core Idea Basics</h3>
+### Core Idea Basics
 
       <ul>
         <li><a href="#term_title">title</a></li>
-
         <li><a href="#term_abstract">abstract</a></li>
-
         <li><a href="#term_description">description</a></li>
-
         <li><a href="#term_date">date</a></li>
-
         <li><a href="#term_hasAttachment">hasAttachment</a></li>
-
         <li><a href="#term_hasCreator">hasCreator</a></li>
-
         <li><a href="#term_hasForum">hasForum</a></li>
-
         <li><a href="#term_hasOrigin">hasOrigin</a></li>
-
         <li><a href="#term_hasRating">hasRating</a></li>
-
         <li><a href="#term_hasRealization">hasRealization</a></li>
-		
         <li><a href="#term_hasStatus">hasStatus</a></li>
-
         <li><a href="#term_hasTagging">hasTagging</a></li>
-
         <li><a href="#term_hasTopic">hasTopic</a></li>
-
         <li><a href="#term_isNewVersionOf">isNewVersionOf</a>&nbsp;&nbsp;</li>
       </ul>
-
-    </div>
-  </div>
   
-  <img src="res/IdeaOntologyOverview.png" alt="Overview of Idea Ontology concepts" />
+![Overview of Idea Ontology concepts](https://github.com/riedlc/IdeaOntology/blob/master/res/IdeaOntologyOverview.png "Overview of Idea Ontology concepts")
 
-  <div style="clear: left;"></div>
+## Example
 
-  <h2 id="sec-example">Example</h2>
+Here is a very basic document describing a simple idea:
 
-  <p>Here is a very basic document describing a simple idea:</p>
-
-  <div class="example">
-    <pre>
+```
 <#idea123> a im:CoreIdea ; 
 	dc:title "Calculate environmental sustainability based on bill of materials." ; 
 	im:hasForum <#forum idea123> . 
@@ -247,8 +138,7 @@ is an evolving work. The Idea Ontology RDF namespace, by contrast, is fixed and 
 	sioc:has container <#forum idea123> ; 
 	im:hasTopic <http://en.wikipedia.org/wiki/Customer> ; 
 	sioc:content "Engineering departments of automobile manufacturers" .
-</pre>
-  </div>
+```
 
   <p>The example illustrates how the combination of <a href="#term_CoreIdea">im:CoreIdea</a>, 
   <a href="http://rdfs.org/sioc/spec/#term_Item" target="sioc">sioc:Item</a>, and <a href="http://www.w3.org/TR/skos-reference/#Concept" target="skos">skos:Concept</a> can be used to represent detailed idea submission forms 
@@ -257,15 +147,15 @@ is an evolving work. The Idea Ontology RDF namespace, by contrast, is fixed and 
   <a href="term_hasTopic">hasTopic</a> relationship that defines the semantic meaning of the 
   argument. As <a href="http://rdfs.org/sioc/spec/#term_Item" target="sioc">sioc:Items</a> are modeled as <a href="http://www.w3.org/TR/rdf-primer/" target="rdf">rdf:Resources</a> it is possible to assign a rating to them.</p>
 
-  <div style="clear: left;"></div>
 
 
   <!-- ================================================================== -->
 
 
- <h2 id="sec-intro">Introduction: IM Basics</h2>
+## Introduction: IM Basics
 
-  <h3 id="sec-sw">The Semantic Web</h3>
+### The Semantic Web
+
 <blockquote>
 
 <em>
@@ -283,7 +173,7 @@ is an evolving work. The Idea Ontology RDF namespace, by contrast, is fixed and 
 - Tim Berners-Lee &quot;W3 future directions&quot; keynote, 1st World Wide Web Conference Geneva, May 1994
 </blockquote>
 
-<h3 id="sec-imsw">IM and the Semantic Web</h3>
+### IM and the Semantic Web
 
 <p>
 Several benefits can be expected by the use of an ontology. They provide structure to poorly structured 
@@ -316,7 +206,7 @@ achieve interoperability and technical integration between tools thus better sup
 cycle from idea generation, idea evaluation through to idea implementation across specialized tools as 
 well as advanced analysis through semantic reasoning.</p>
 
-  <h3 id="sec-basicidea">The Basic Idea</h3>
+### The Basic Idea
 
   <p>We chose <a href="https://www.w3.org/TR/owl-features/" target="owl">OWL</a> for the development of our ontology 
   and followed a generic ontology development approach. During our reserach we found that neither 
@@ -393,24 +283,25 @@ well as advanced analysis through semantic reasoning.</p>
 			
 	</table>
 
-  <h2 id="sec-crossref">IM cross-reference: Listing IM Classes and Properties</h2>
+## IM cross-reference: Listing IM Classes and Properties
 
   <p>IM introduces the following classes and properties. View
   this document's source markup to see the RDF/XML version.</p>
 
   
-<h3>Classes and Properties (full detail)</h3>
+### Classes and Properties (full detail)
 
 <!-- Classes -->
 
-<div class='termdetails'><br /><div class="specterm" id="term_CoreIdea">
-<h3>Class: im:CoreIdea</h3>
+#### Class: im:CoreIdea
+
 <table>
 <tr><th>sub-class-of:</th><td> <a href="#term_Resource">rdf:Resource</a></td></tr>
 <tr><th>in-range-of:</th><td> <a href="#term_abstract">im:abstract</a> <a href="#term_date">dc:date</a> 
 <a href="#term_description">dc:description</a> <a href="#term_title">dc:title</a> <a href="#term_version">im:version</a></td></tr>
 <tr><th>in-domain-of:</th><td> <a href="#term_hasForum">im:hasForum</a> 
-<a href="#term_hasRealization">im:hasRealization</a> <a href="#term_hasStatus">im:hasStatus</a> <a href="#term_isNewVersionOf">im:isNewVersionOf</a></td></tr></table>
+<a href="#term_hasRealization">im:hasRealization</a> <a href="#term_hasStatus">im:hasStatus</a> <a href="#term_isNewVersionOf">im:isNewVersionOf</a></td></tr>
+</table>
 
 <p>
 This is the central class of the Idea Ontology. An <code><a href="#term_CoreIdea">im:CoreIdea</a></code> is the entity that holds an idea. To achieve a generic and versatile representation of ideas we chose a hierarchical design with three layers of textual descriptions for a <code><a href="#term_CoreIdea">im:CoreIdea</a></code>: <code><a href="#term_title">dc:title</a></code>, <code><a href="#term_abstract">im:abstract</a></code>, and <code><a href="#term_description">dc:description</a></code>. All three represent a textual description of the idea but vary in length and detail. Thus, our ontology is able to support very simple tools such as electronic brainstorming where an idea usually consists of no more than one sentence, up to more advanced tools that allow longer descriptions. 
@@ -421,17 +312,9 @@ An idea can also have a relationship with <code><a href="http://rdfs.org/sioc/sp
 Through the sub-classing attributes such <code><a href="#term_hasCreator">im:hasCreator</a></code>, <code><a href="#term_hasRating">im:hasRating</a></code>, and <code><a href="#term_hasTagging">im:hasTagging</a></code> are inherited from <code><a href="#term_Resource">rdf:Resource</a></code>.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_CoreIdea">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-</div>
-
-
-<br /><div class='termdetails'><br /><div class="specterm" id="term_IdeaRealization">
-<h3>Class: im:IdeaRealization</h3>
+#### Class: im:IdeaRealization
 <table>
 <tr><th>in-range-of: </th><td> <a href="#term_hasRealization">im:hasRealization</a></td></tr>
 <tr><th>in-domain-of: </th><td><em>unspecified (see description below)</em></td></tr></table>
@@ -444,17 +327,9 @@ be realized as a new product or new service at a later stage of the innovation p
 This class is used to link an <code><a href="#term_CoreIdea">
 im:CoreIdea</a></code> to a realization of that idea.</p>
 
-<p style="float: right; font-size: small;">[<a href="#term_IdeaRealization">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-</div>
-
-
-<br /><div class='termdetails'><br /><div class="specterm" id="term_Origin">
-<h3>Class: im:Origin</h3>
+#### Class: im:Origin
 <table>
 <tr><th>in-range-of:</th><td> <a href="#term_hasOrigin">im:hasOrigin</a></td></tr>
 <tr><th>in-domain-of:</th><td> <a href="http://purl.org/dc/elements/1.1/source" target="dc">dc:source</a> <a href="#term_title">dc:title</a></td></tr></table>
@@ -462,16 +337,9 @@ im:CoreIdea</a></code> to a realization of that idea.</p>
 <p>As one of our Idea Ontology's main goals is to foster interoperability between various innovation management tools it is necessary to keep track of the application that a given resource originates from. The <code><a href="#term_Origin">im:Origin</a></code> class can be used for this purpose. In this way it can be stated that an idea originates, e.g., from a brainstorming tool, an idea portal on the Web, or another application. 
 The application that the <code><a href="#term_Resource">rdf:Resource</a></code> originates from.</p>
 
-<p style="float: right; font-size: small;">[<a href="#term_Origin">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-<br/>
-</div>
 
  
-<div class='termdetails'><br /><div class="specterm" id="term_Resource">
-<h3>Class: rdf:Resource</h3>
+#### Class: rdf:Resource
 <table>
 <tr><th>in-range-of:</th><td> <a href="#term_hasCreator">im:hasCreator</a> <a href="#term_hasTagging">im:hasTagging</a>
 <a href="#term_hasTopic">im:hasTopic</a></td></tr>
@@ -483,16 +351,8 @@ under the class <code><a href="http://www.w3.org/RDF#Resource" target="rdf">rdf:
 Known sub-classes within the context of the Idea Ontology are <code><a href="#term_CoreIdea">im:CoreIdea</a></code>, <code><a href="http://rdfs.org/sioc/spec/#term_Item" target="sioc">sioc:Item</a></code>, and <code><a href="http://xmlns.com/foaf/spec/#term_Document" target="foaf">foaf:Document</a></code>.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_Resource">#</a>]</p>
 
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div>
-
-<br /><div class='termdetails'><br /><div class="specterm" id="term_Status">
-<h3>Class: im:Status</h3>
+#### Class: im:Status
 <table>
 <tr><th>in-range-of:</th><td><a href="#term_hasStatus">im:hasStatus</a></td></tr>
 <tr><th>in-domain-of:</th><td><a href="#term_description">dc:description</a> <a href="#term_title">dc:title</a></td></tr></table>
@@ -503,19 +363,11 @@ This class contains a set of instances denoting differnet states an <code><a hre
 Examples are <em>new</em>, <em>open</em>, <em>evaluated</em>, <em>implemented</em>, etc.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_Status">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div>
 
 
 <!-- Data properties -->
 
-<br /><div class="specterm" id="term_abstract">
-<h3>Data Property: im:abstract</h3>
+#### Data Property: im:abstract
 
 <table>
 
@@ -528,17 +380,9 @@ Examples are <em>new</em>, <em>open</em>, <em>evaluated</em>, <em>implemented</e
 <p>
 A medium length abstract describing an <code><a href="#term_CoreIdea">im:CoreIdea</a></code>. For a short title of an idea please use the <code><a href="#term_title">dc:title</a></code> attribute and for a longer description of an idea the <code><a href="#term_description">dc:description</a></code> attribute of an <code><a href="#term_CoreIdea">im:CoreIdea</a></code>.</p>
 
-<p style="float: right; font-size: small;">[<a href="#term_abstract">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_date">
-<h3>Data Property: dc:date</h3>
+#### Data Property: dc:date
 
 <table>
 
@@ -552,16 +396,8 @@ A medium length abstract describing an <code><a href="#term_CoreIdea">im:CoreIde
 Time this version of an <code><a href="#term_CoreIdea">im:CoreIdea</a></code> has been created.<br/>
 See: <a href="http://purl.org/dc/elements/1.1/date" target="dc">dc:date</a>.</p>
 
-<p style="float: right; font-size: small;">[<a href="#term_date">#</a>]</p>
 
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div>
-
-<br /><div class="specterm" id="term_description">
-<h3>Data Property: dc:description</h3>
+#### Data Property: dc:description
 
 <table>
 
@@ -575,17 +411,9 @@ See: <a href="http://purl.org/dc/elements/1.1/date" target="dc">dc:date</a>.</p>
 description to an <code><a href="#term_CoreIdea">im:CoreIdea</a></code> and an<code><a href="#term_Status">im:Status</a></code>.<br/>
 See: <a href="http://purl.org/dc/elements/1.1/description" target="dc">dc:description</a>.</p>
 
-<p style="float: right; font-size: small;">[<a href="#term_description">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_title">
-<h3>Data Property: dc:title</h3>
+#### Data Property: dc:title
 
 <table>
 
@@ -598,20 +426,10 @@ See: <a href="http://purl.org/dc/elements/1.1/description" target="dc">dc:descri
 <p>A name given to the resource. dc:title is used in the Idea Ontology to assign a title to <code><a href="#term_CoreIdea">im:CoreIdea</a></code> and <code><a href="#term_Status">im:Status</a></code>.<br/>
 See: <a href="http://purl.org/dc/elements/1.1/title" target="dc">dc:title</a>.</p>
 
-<p style="float: right; font-size: small;">[<a href="#term_title">#</a>]</p>
 
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_version">
-<h3>Data Property: im:version</h3>
+#### Data Property: im:version
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_CoreIdea">im:CoreIdea</a></td></tr>
 	<tr><th>Range:</th>
@@ -623,21 +441,12 @@ Every <code><a href="#term_CoreIdea">im:CoreIdea</a></code> has an <code><a href
 number to allow keeping track of different instances of the same idea by means of the <a href="#term_isNewVersionOf">im:isNewVersionOf</a> relationship. 
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_version">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div>
 
 <!-- Object properties -->
 
-<br /><div class="specterm" id="term_hasAttachment">
-<h3>Object Property: im:hasAttachment</h3>
+#### Object Property: im:hasAttachment
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_Resource">rdf:Resource</a></td></tr>
 	<tr><th>Range:</th>
@@ -648,20 +457,11 @@ number to allow keeping track of different instances of the same idea by means o
 may have documents attached to it (e.g., a screenshot, a process model, technical drawings, etc.) that contains more detailed descriptions of the idea.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_hasAttachment">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_hasCreator">
-<h3>Object Property: im:hasCreator</h3>
+#### Object Property: im:hasCreator
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_Resource">rdf:Resource</a></td></tr>
 	<tr><th>Range:</th>
@@ -672,20 +472,11 @@ may have documents attached to it (e.g., a screenshot, a process model, technica
 <code><a href="http://xmlns.com/foaf/spec/#term_Person" target="foaf">foaf:Person</a></code>.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_hasCreator">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_hasForum">
-<h3>Object Property: im:hasForum</h3>
+#### Object Property: im:hasForum
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_CoreIdea">im:CoreIdea</a></td></tr>
 	<tr><th>Range:</th>
@@ -697,20 +488,10 @@ sioc:forums</a></code> associated with it where users are discussing the idea. A
 (forum style, blogs, anything) are organized using the <a href="http://rdfs.org/sioc/">SIOC</a> ontology.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_hasForum">#</a>]</p>
 
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_hasRating">
-<h3>Object Property: im:hasRating</h3>
+#### Object Property: im:hasRating
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_Resource">rdf:Resource</a></td></tr>
 	<tr><th>Range:</th>
@@ -724,20 +505,10 @@ this is indicated by <code><a href="#term_hasRating">im:hasRating</a></code>.<br
 See: <a href="http://www.tvblob.com/ratings/" target="tvblob">tvblob rating</a>.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_hasRating">#</a>]</p>
 
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_hasRealization">
-<h3>Object Property: im:hasRealization</h3>
+#### Object Property: im:hasRealization
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_CoreIdea">im:CoreIdea</a></td></tr>
 	<tr><th>Range:</th>
@@ -749,20 +520,9 @@ in a concrete product or service. This is indicated through a <code><a href="#te
 </a></code> link to an <code><a href="#term_IdeaRealization">im:IdeaRealization</a></code>.<p>
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_hasRealization">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_hasStatus">
-<h3>Object Property: im:hasStatus</h3>
+#### Object Property: im:hasStatus
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_CoreIdea">im:CoreIdea</a></td></tr>
 	<tr><th>Range:</th>
@@ -773,19 +533,11 @@ in a concrete product or service. This is indicated through a <code><a href="#te
 denots the state of this idea. This could mean that an idea is <em>open, evaluated, implemented,</em> etc.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_hasStatus">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-</div>
-
-<br /><div class="specterm" id="term_hasTagging">
-<h3>Object Property: im:hasTagging</h3>
+#### Object Property: im:hasTagging
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_Resource">rdf:Resource</a></td></tr>
 	<tr><th>Range:</th>
@@ -795,20 +547,11 @@ denots the state of this idea. This could mean that an idea is <em>open, evaluat
 <p>Relates a tag to a <code><a href="#term_Resource">rdf:Resource</a></code>.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_hasTagging">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_hasTopic">
-<h3>Object Property: im:hasTopic</h3>
+#### Object Property: im:hasTopic
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_Resource">rdf:Resource</a></td></tr>
 	<tr><th>Range:</th>
@@ -819,20 +562,11 @@ denots the state of this idea. This could mean that an idea is <em>open, evaluat
 <code><a href="http://www.w3.org/2008/05/skos#Concept" target="skos">skos:Concept</a></code>.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_hasTopic">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_isNewVersionOf">
-<h3>Object Property: im:isNewVersionOf</h3>
+#### Object Property: im:isNewVersionOf
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_CoreIdea">im:CoreIdea</a></td></tr>
 	<tr><th>Range:</th>
@@ -843,21 +577,11 @@ denots the state of this idea. This could mean that an idea is <em>open, evaluat
 linked to each other indicating that they are "the same" but in different versions.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_isNewVersionOf">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
 
 
-<br/>
-
-</div>
-
-
-<!-- <br /><div class="specterm" id="term_isSubjectOf">
-<h3>Object Property: im:isSubjectOf</h3>
+#### Object Property: im:isSubjectOf
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="http://www.w3.org/2008/05/skos#Concept">skos:Concept</a></td></tr>
 	<tr><th>Range:</th>
@@ -870,44 +594,26 @@ linked to each other indicating that they are "the same" but in different versio
 is discussed in the related <code><a href="#term_Resource">rdf:Resource</a></code>.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_isSubjectOf">#</a>]</p>
 
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div>
-
-
-<br /><div class="specterm" id="term_realizes">
-<h3>Object Property: im:realizes</h3>
+#### Object Property: im:realizes
 
 <table>
-
 	<tr><th>Domain:</th>
 	<td><a href="#term_IdeaRealization">im:IdeaRealization</a></td></tr>
 	<tr><th>Range:</th>
 	<td><a href="#term_CoreIdea">im:CoreIdea</a></td></tr>
 	<tr><th>is-inverse-of:</th>
 	<td><a href="#term_hasRealization">im:hasRealization</a></td></tr>
-
 </table>
 <p>This <code><a href="#term_IdeaRealization">im:IdeaRealization</a></code> realises (i.e. implements) 
 a certain <code><a href="#term_CoreIdea">CoreIdea</a></code>. 
 I.e. the product or service realized here, originates/is based on an <code><a href="#term_CoreIdea">CoreIdea</a></code>.
 </p>
 
-<p style="float: right; font-size: small;">[<a href="#term_realizes">#</a>]</p>
-
-<p style="float: right; font-size: small;">[<a href="#glance">back to top</a>]</p>
-
-
-<br/>
-</div> -->
 
 <!-- end of termlist -->
 
-  <h3 id="sec-ack">Acknowledgments</h3>
+### Acknowledgments
 
   <p>This research was funded by the German Federal Ministry of Economics and Technology under the 
   promotional reference 01MQ07012, 01MQ07017, 01MQ07019,  and 01MQ07024 and the German Federal Ministry of Education and Research under grant 
@@ -915,7 +621,7 @@ I.e. the product or service realized here, originates/is based on an <code><a hr
 
 	<p>We want to acknowlede in particular the help of Daniel Oberle and Tom Kiemes from the TEXO Project.</p>
 	
-  <h3 id="sec-disclaimer">Copyright Disclaimer</h3>
+### Copyright Disclaimer
   
   <p>The information in this document is proprietary to the following THESEUS consortium members funded 
   by means of the German Federal Ministry of Economy and Technology : SAP AG, FZI, Fraunhofer Gesellschaft 
@@ -927,16 +633,11 @@ I.e. the product or service realized here, originates/is based on an <code><a hr
   and Technische Universit&auml;t M&uuml;nchen. All rights reserved.</p>
 
 
+## Recent Changes
 
-  <h2 id="sec-changes">Recent Changes</h2>
+2009-11-09
 
-
-	<h3 id="sec-changes20091109">2009-11-09</h3>
 	<ul>
 	<li>Initial version
 	</ul>
-
-</body>
-</html>
-
 
