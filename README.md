@@ -80,21 +80,19 @@ specterm.h3 {
 
 /*]]>*/
 </style>
-</head>
+# Idea Ontology Vocabulary Specification 1.0
 
-<body>
-  <h1>Idea Ontology Vocabulary Specification 1.0 <br /></h1>
-  <h2>Namespace Document 1 November 2009 - Initial Version</h2>
+## Namespace Document 1 November 2009 - Initial Version
 
   <dl>
 
     <dt>This version:</dt>
 
     <dd><a href=
-    "http://www.ideaontology.org/spec/20091101.html">http://www.ideaontology.org/spec/20091101.html</a> (<a href="20091101.rdf">rdf</a>)</dd>
+    "https://github.com/riedlc/IdeaOntology">https://github.com/riedlc/IdeaOntology</a> (<a href="https://github.com/riedlc/IdeaOntology/blob/master/20091101.rdf">rdf</a>)</dd>
 
     <dt>Latest version:</dt>
-    <dd><a href="http://www.ideaontology.org/spec/">http://www.ideaontology.org/spec/</a> (<a href="index.rdf">rdf</a>)</dd>
+    <dd><a href="https://github.com/riedlc/IdeaOntology">https://github.com/riedlc/IdeaOntology</a> (<a href="https://github.com/riedlc/IdeaOntology/blob/master/20091101.rdf">rdf</a>)</dd>
 
     <dt>Authors:</dt>
     <dd><a href="mailto:riedlc[at.]in.tum.de">Christoph Riedl</a>,
