@@ -17,6 +17,10 @@
 <a>Stephan Stathel</a>,
 <a>Helmut Krcmar</a></dd>
 
+<dt>Cite as:</dt>
+<dd>Riedl, C., May, N. Finzen, J., et al. (2009). "An Idea Ontology for Innovation Management," <em>International Journal on Semantic Web and Information Systems</em>, 5(4), 1-18.</dd>
+</dl>
+
 <dt>Contributors:</dt>
 <dd>Members of TEXO and related projects. See <a href="#sec-ack">acknowledgements</a>.</dd>
 </dl>
@@ -342,6 +346,7 @@ The application that the <code><a href="#term_Resource">rdf:Resource</a></code> 
 
 
 <div class="specterm" id="term_Resource" />
+
 ---
 #### Class: rdf:Resource
 <table>
