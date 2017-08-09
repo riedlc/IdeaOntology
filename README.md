@@ -11,14 +11,14 @@
 <dd><a href="https://github.com/riedlc/IdeaOntology">https://github.com/riedlc/IdeaOntology</a> (<a href="https://github.com/riedlc/IdeaOntology/blob/master/20091101.rdf">rdf</a>)</dd>
 
 <dt>Authors:</dt>
-<dd><a href="mailto:riedlc[at.]in.tum.de">Christoph Riedl</a>,
+<dd>Christoph Riedl,
 <a>Norman May</a>,
 <a>Jan Finzen</a>,
 <a>Stephan Stathel</a>,
 <a>Helmut Krcmar</a></dd>
 
 <dt>Cite as:</dt>
-<dd>Riedl, C., May, N. Finzen, J., et al. (2009). "An Idea Ontology for Innovation Management," <em>International Journal on Semantic Web and Information Systems</em>, 5(4), 1-18.</dd>
+<dd>Riedl, C., May, N. Finzen, J., et al. (2009). "An Idea Ontology for Innovation Management," <em>International Journal on Semantic Web and Information Systems</em>, 5(4), 1-18. <a href="http://ssrn.com/abstract=1648841">SSRN</a></dd>
 </dl>
 
 <dt>Contributors:</dt>
